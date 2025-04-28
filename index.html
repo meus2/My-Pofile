@@ -40,8 +40,8 @@
       <h1 class="text-2xl font-extrabold tracking-wide">Portfolio</h1>
       <!-- เมนูปกติ -->
       <ul class="hidden md:flex space-x-6 text-lg font-medium">
-        <li><a href="#about" class="hover:underline">About</a></li>
-        <li><a href="#experience" class="hover:underline">Experience</a></li>
+        <li><a href="#about" class="hover:underline">About Me</a></li>
+        <li><a href="#experience" class="hover:underline">Work Experience</a></li>
         <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
         <li><a href="#contact" class="hover:underline">Contact</a></li>
       </ul>
@@ -107,34 +107,120 @@
   
   
 
-  <!-- About Section -->
-  <section id="about" class="container mx-auto px-4 py-16">
-    <h2 class="text-3xl font-bold text-primary mb-6">About Me</h2>
-    <p class="leading-relaxed text-lg">
-      สวัสดีครับ ผม นายสมบูรณ์ ขุนศรี<br>
-      ผมชอบพัฒนาตัวเองอยู่เสมอ และพร้อมเรียนรู้สิ่งใหม่ๆ<br>
-      มีความชื่นชอบด้านการตัดต่อวิดีโอและออกแบบกราฟิก มีประสบการณ์ทำงานจริง พร้อมรับแรงกดดันได้ดี
-    </p>
-  </section>
+ <!-- About Section -->
+<section id="about" class="container mx-auto px-4 py-16">
+  <h2 class="text-4xl font-bold text-primary mb-10 text-center">About Me</h2>
 
-  <!-- Experience Section -->
-  <section id="experience" class="container mx-auto px-4 py-16 bg-white">
-    <h2 class="text-3xl font-bold text-primary mb-6">Work Experience</h2>
-    <ul class="list-disc ml-6 text-lg space-y-3">
-      <li>เด็กฝึกงาน Editor ช่อง My Mate Nate</li>
-      <li>เด็กฝึกงาน Editor ช่อง MMN Chanel</li>
-      <li>Editor & Graphic งานในรายวิชาและกิจกรรมภายในสาขานิเทศศาสตร์ ม.ราชภัฏ นครสวรรค์</li>
-      <li>Editor ช่อง PunchPear</li>
-    </ul>
-  </section>
+  <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+    <img src="IMG_7829.jpg" alt="About Me" class="w-full md:w-1/2 object-cover">
+    <div class="p-8 flex flex-col justify-center">
+      <h3 class="text-2xl font-bold text-secondary mb-4">สมบูรณ์ ขุนศรี (เต้)</h3>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        ผมชอบพัฒนาตัวเองอยู่เสมอ และพร้อมเรียนรู้สิ่งใหม่ๆมีความชื่นชอบด้านการตัดต่อวิดีโอและออกแบบกราฟิก มีประสบการณ์ทำงานจริง พร้อมรับแรงกดดันได้ดี
+      </p>
+    </div>
+  </div>
+</section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="container mx-auto px-4 py-16">
-    <h2 class="text-3xl font-bold text-primary mb-6">Portfolio</h2>
-    <p class="text-lg">
-      รวมผลงานการตัดต่อวิดีโอ, กราฟิก, ภาพถ่าย และอื่นๆ ที่เคยทำ
-    </p>
-  </section>
+<!-- Experience Section -->
+<section id="experience" class="container mx-auto px-4 py-16 bg-gray-100">
+  <h2 class="text-4xl font-bold text-primary mb-10 text-center">Work Experience</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition overflow-hidden">
+      <!-- พื้นหลังรูป -->
+      <div class="absolute inset-0">
+        <img src="channels4_banner.jpg" 
+             alt="My Mate Nate" 
+             class="w-full h-full object-cover opacity-20" />
+      </div>
+    
+      <!-- เนื้อหาด้านบนพื้นหลัง -->
+      <div class="relative">
+        <h3 class="text-xl font-semibold text-secondary mb-2">เด็กฝึกงาน</h3>
+        <p class="text-gray-600">ช่อง My Mate Nate</p>
+      </div>
+    </div>
+    
+    <div class="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition overflow-hidden">
+      <!-- พื้นหลังรูป -->
+      <div class="absolute inset-0">
+        <img src="channels4_banner (1).jpg" 
+             alt="My Mate Nate" 
+             class="w-full h-full object-cover opacity-20" />
+      </div>
+    
+      <!-- เนื้อหาด้านบนพื้นหลัง -->
+      <div class="relative">
+        <h3 class="text-xl font-semibold text-secondary mb-2">เด็กฝึกงาน</h3>
+        <p class="text-gray-600">ช่อง MMN Channel</p>
+      </div>
+    </div>
+
+    <div class="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition overflow-hidden">
+      <!-- พื้นหลังรูป -->
+      <div class="absolute inset-0">
+        <img src="bhHS62MZdMaX1WaOgf9GqxiwtlCHXiD6TzVCWFU1.jpg" 
+             alt="My Mate Nate" 
+             class="w-full h-full object-cover opacity-20" />
+      </div>
+    
+      <!-- เนื้อหาด้านบนพื้นหลัง -->
+      <div class="relative">
+        <h3 class="text-xl font-semibold text-secondary mb-2">Editor & Graphic Designer</h3>
+        <p class="text-gray-600">งานวิชาและกิจกรรม นิเทศศาสตร์ ม.ราชภัฏ นครสวรรค์</p>
+      </div>
+    </div>
+
+    <div class="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition overflow-hidden">
+      <!-- พื้นหลังรูป -->
+      <div class="absolute inset-0">
+        <img src="channels4_banner (2).jpg" 
+             alt="My Mate Nate" 
+             class="w-full h-full object-cover opacity-20" />
+      </div>
+    
+      <!-- เนื้อหาด้านบนพื้นหลัง -->
+      <div class="relative">
+        <h3 class="text-xl font-semibold text-secondary mb-2">Editor</h3>
+        <p class="text-gray-600">ช่อง PunchPear</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="container mx-auto px-4 py-16">
+  <h2 class="text-4xl font-bold text-primary mb-10 text-center">Portfolio</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="video-editing.jpg" alt="Video Editing" class="h-56 w-full object-cover">
+      <div class="p-6">
+        <h3 class="text-2xl font-bold text-secondary mb-2">Video Editing</h3>
+        <p class="text-gray-700 text-base">ผลงานตัดต่อวิดีโอระดับมืออาชีพ ด้วยเทคนิคที่น่าสนใจและทันสมัย</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="graphic-design.jpg" alt="Graphic Design" class="h-56 w-full object-cover">
+      <div class="p-6">
+        <h3 class="text-2xl font-bold text-secondary mb-2">Graphic Design</h3>
+        <p class="text-gray-700 text-base">ออกแบบกราฟิกสำหรับโซเชียลมีเดีย งานโปรโมท และคอนเทนต์ต่างๆ</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="photography.jpg" alt="Photography" class="h-56 w-full object-cover">
+      <div class="p-6">
+        <h3 class="text-2xl font-bold text-secondary mb-2">Photography</h3>
+        <p class="text-gray-700 text-base">ถ่ายภาพเพื่อสื่ออารมณ์ ถ่ายทอดเรื่องราวผ่านเลนส์กล้อง</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer class="bg-gradient-to-r from-black to-purple-800 text-white py-8">
